@@ -1,0 +1,21 @@
+import React from 'react';
+import logo from "../images/logo.png";
+import { Link } from "react-router-dom";
+
+function Nav() {
+    return (
+        <nav>
+            <div className="container nav-container">
+                <img src={logo} alt="" className="logo"/>
+                <ul className="nav-ul">
+                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/products" className="nav-link">Products</Link>
+                    <Link to="/about" className="nav-link">About Us</Link>
+                    <Link to="/contact" className="nav-link">Contact</Link>
+                </ul>
+            </div>
+        </nav>
+    );
+}
+
+export default Nav;
