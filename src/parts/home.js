@@ -3,10 +3,10 @@ import Header from "./header";
 import Section from "./section";
 import Footer from "./footer";
 
-function Home() {
+function Home({ imgs }) {
     return (
         <>
-            <Header />
+            <Header imgs={imgs} />
             <Section />
             <Footer />
         </>

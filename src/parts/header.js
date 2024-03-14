@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from "../images/logo.png"
+import MyCarousel from "../components/myCarousel";
 
-function Header() {
+function Header({ imgs }) {
     return (
         <header>
+            <MyCarousel imgs={imgs}/>
         </header>
     );
 }

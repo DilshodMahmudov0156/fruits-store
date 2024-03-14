@@ -24,6 +24,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .nav-container{
   display: flex;
@@ -49,4 +50,25 @@ nav{
 .nav-ul{
   display: flex;
   align-items: center;
+}
+.cart-btn{
+  padding: 12px 17px;
+  background-color: #4eab3b;
+  color: white;
+  font-size: 20px;
+  margin-top: 16px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.my-carousel{
+  overflow: hidden;
+  border-radius: 10px;
+}
+.carousel-text{
+  width: 250px;
+  margin: auto;
+  color: white;
+  background-color: #4eab3b;
+  padding: 20px;
+  border-radius: 10px;
 }
