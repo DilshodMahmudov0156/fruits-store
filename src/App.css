@@ -12,6 +12,8 @@
   right: 0;
   bottom: 0;
   overflow: auto;
+  background-image: url("./images/fruit bg.png");
+  background-repeat: repeat;
 }
 nav{
   width: 100%;
@@ -60,9 +62,29 @@ nav{
   border-radius: 5px;
   margin-left: 20px;
 }
+.search-bar-container{
+  position: sticky;
+  top: 70px;
+}
+.search-bar-in{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.49);
+}
+.search-bar-container input{
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+}
 .my-carousel{
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .carousel-text{
   width: 250px;
