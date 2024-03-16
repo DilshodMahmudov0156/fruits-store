@@ -12,6 +12,7 @@ function Nav() {
                     <Link to="/products" className="nav-link">Products</Link>
                     <Link to="/about" className="nav-link">About Us</Link>
                     <Link to="/contact" className="nav-link">Contact</Link>
+                    <Link to="/search" className="cart-btn"><i className="bi bi-search"></i></Link>
                     <Link to="/cart" className="cart-btn"><i className="bi bi-basket"></i></Link>
                 </ul>
             </div>
