@@ -1,10 +1,19 @@
 import React from 'react';
-import MyCarousel from "../components/myCarousel";
 
-function Header({ imgs }) {
+function Header({}) {
     return (
         <header>
-            <MyCarousel imgs={imgs}/>
+            <div className="masc">
+                <h1 className="text-light text-center">
+                    Dou you want to eat fresh fruits?
+                    <br/>
+                    <span>
+                        Let's begin with us!
+                    </span>
+                    <br/>
+                    <button className="btn btn-success btn-lg mt-5">start shopping</button>
+                </h1>
+            </div>
         </header>
     );
 }

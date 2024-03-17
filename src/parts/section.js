@@ -3,7 +3,12 @@ import React from 'react';
 function Section({}) {
     return (
         <section>
-            <h2>section</h2>
+            <div className="container mt-5">
+                <div className="row">
+                    <div className="col-xl-3">
+                    </div>
+                </div>
+            </div>
         </section>
     );
 }
